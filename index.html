@@ -32,9 +32,11 @@
         </a>
         </div>
         <div class="navbar-collapse collapse">
+<!--
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">API Manager Login</a></li>
           </ul>
+-->
         </div>
       </div>
     </div>
@@ -46,8 +48,8 @@
 					<h1>APINF - API Management Platform<br/>
 					<small>Powered by API Umbrella.</small></h1>
 
-					  <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Get an API Key</button>
-					  <a class="btn btn-success btn-outline btn-lg btn-docs">Documentation</a>
+					  <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal" title="Get an API Key">Get an API Key</button>
+					  <a class="btn btn-success btn-outline btn-lg btn-docs" disabled="disabled" alt="Work in progress">Documentation</a>
 
 				</div>
 				<div class="modal fade modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -59,40 +61,20 @@
 				      </div>
 				      <div class="modal-body" id="api_umbrella_signup">
 				      <p>Sign up for an application programming interface (API) key.</p>
-<!--
-				        <form role="form">
-				          <div class="form-group">
-				            <label for="recipient-name" class="control-label">First Name:</label>
-				            <input type="text" class="form-control" id="recipient-name">
-				          </div>
-				          <div class="form-group">
-				            <label for="recipient-name" class="control-label">Last Name:</label>
-				            <input type="text" class="form-control" id="recipient-name">
-				          </div>
-				          <div class="form-group">
-				            <label for="recipient-name" class="control-label">Email:</label>
-				            <input type="text" class="form-control" id="recipient-name">
-				          </div>
-				          <div class="form-group">
-				            <label for="message-text" class="control-label">How will you use the APIs?</label>
-				            <textarea class="form-control" id="message-text"></textarea>
-				          </div>
-        				</form>
--->
                           <script type="text/javascript">
-  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-  var apiUmbrellaSignupOptions = {
-    registrationSource: 'web',
-    apiKey: 'TyiYcBDQ3pSREFvQOeyOP8gAr6DPtcWEhHX4VMmb'
-  };
+                              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                              var apiUmbrellaSignupOptions = {
+                                registrationSource: 'web',
+                                apiKey: 'TyiYcBDQ3pSREFvQOeyOP8gAr6DPtcWEhHX4VMmb'
+                              };
 
-  /* * * DON'T EDIT BELOW THIS LINE * * */
-  (function() {
-    var apiUmbrella = document.createElement('script'); apiUmbrella.type = 'text/javascript'; apiUmbrella.async = true;
-    apiUmbrella.src = '/assets/js/signup_embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(apiUmbrella);
-  })();
-</script>
+                              /* * * DON'T EDIT BELOW THIS LINE * * */
+                              (function() {
+                                var apiUmbrella = document.createElement('script'); apiUmbrella.type = 'text/javascript'; apiUmbrella.async = true;
+                                apiUmbrella.src = '/assets/js/signup_embed.js';
+                                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(apiUmbrella);
+                              })();
+                          </script>
         				<label class="checkbox-inline"><input type="checkbox" value="">I have read and agree to the <a href="https://apinf.com/terms/">terms and conditions</a>.</label>
 
 				      </div>
@@ -194,8 +176,8 @@
         <ul class="list-inline">
             <li>© 2014 Apinf</li>
             <li class="pull-right"><a href="#" data-toggle="modal" data-target="#myModal">Sign up</a></li>
-            <li class="pull-right"><a href="#">Contact</a></li>
-            <li class="pull-right"><a href="#">Documentation</a></li>
+            <!-- <li class="pull-right"><a href="#">Contact</a></li> -->
+            <!-- <li class="pull-right"><a href="#">Documentation</a></li> -->
 	</div>
 </footer>
 
