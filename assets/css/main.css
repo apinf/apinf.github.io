@@ -46,6 +46,7 @@ p {
     margin: auto 0;
     display: inline-block;
     margin-top: 20px;
+    max-width: 100%;
 }
 
 /* Links */
