@@ -7,8 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/favicon.png">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 
-    <title>Apinf - API Management</title>
+    <title>APInf - API Management</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -32,9 +33,7 @@
         </a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/admin" target="_blank">API Manager Login</a></li>
-          </ul>
+          
         </div>
       </div>
     </div>
@@ -42,137 +41,190 @@
 	<div id="headerwrap">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
-					<h1>APINF - API Management Platform<br/>
-					<small>Powered by API Umbrella.</small></h1>
+				<div class="col-lg-12 header-block">
+					<h1>APInf - API Management Platform<br/>
+					<small>Building a bridge between API owners and users</small></h1>
 
-					  <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal" title="Get an API Key">Get an API Key</button>
-<!--					  <a class="btn btn-success btn-outline btn-lg btn-docs" disabled="disabled" alt="Work in progress">Documentation</a>-->
+					  <a href="https://apinf.io" class="btn btn-warning btn-lg" title="Go to tool">Discover apinf.io</a>
+
 
 				</div>
-				<div class="modal fade modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				        <h4 class="modal-title" id="myModalLabel">API Key Signup</h4>
-				      </div>
-				      <div class="modal-body" id="api_umbrella_signup">
-				      <p>Sign up for an application programming interface (API) key.</p>
-                          <script type="text/javascript">
-                              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                              var apiUmbrellaSignupOptions = {
-                                registrationSource: 'web',
-                                apiKey: 'TyiYcBDQ3pSREFvQOeyOP8gAr6DPtcWEhHX4VMmb'
-                              };
-
-                              /* * * DON'T EDIT BELOW THIS LINE * * */
-                              (function() {
-                                var apiUmbrella = document.createElement('script'); apiUmbrella.type = 'text/javascript'; apiUmbrella.async = true;
-                                apiUmbrella.src = '/assets/js/signup_embed.js';
-                                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(apiUmbrella);
-                              })();
-                          </script>
-        				<label class="checkbox-inline"><input type="checkbox" value="">I have read and agree to the <a href="https://apinf.com/terms/">terms and conditions</a>.</label>
-
-				      </div>
-				    </div>
-				  </div>
-				</div>
-				<div class="col-lg-6">
-					<img class="img-responsive front-img" src="assets/img/compIllustr.png" alt="">
-				</div>
-
+				
+				
 			</div>
 		</div>
 	</div>
-
 
 	<div class="container">
-        <!-- Components block -->
-        <div class="row mt centered">
-			<div class="col-lg-3">
-				<img src="assets/img/admin.png" width="180" alt="">
-				<h4>Consumer registration</h4>
-				<p>users create accounts to access your API</p>
+	    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>
+          Are you an API user?
+        </h2>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="feature-box">
+          <i class="fa fa-search"></i>
+          <h3 class="feature-title">
+            Discover APIs
+          </h3>
+          <p class="feature-title-text">
+            Find and bookmark useful APIs
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="feature-box">
+          <i class="fa fa-key"></i>
+          <h3 class="feature-title">
+            Get API key
+          </h3>
+          <p class="feature-title-text">
+            Sign up and get your API key
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="feature-box">
+          <i class="fa fa-book"></i>
+          <h3 class="feature-title">
+            Check API documentation
+          </h3>
+          <p class="feature-title-text">
+            Swagger viewer available
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="feature-box">
+          <i class="fa fa-magic"></i>
+          <h3 class="feature-title">
+            Mix APIs
+          </h3>
+          <p class="feature-title-text">
+            Mix APIs from several sources (future)
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>
+          Are you an API owner?
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="feature-box">
+          <i class="fa fa-arrow-up"></i>
+          <h3 class="feature-title">
+            Publish your APIs
+          </h3>
+          <p class="feature-title-text">
+            Make your APIs easily available for developers
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="feature-box">
+          <i class="fa fa-cog"></i>
+          <h3 class="feature-title">
+            Manage your APIs
+          </h3>
+          <p class="feature-title-text">
+            Easily manage and configure your API endpoints and access control
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="feature-box">
+          <i class="fa fa-line-chart"></i>
+          <h3 class="feature-title">
+            Track your APIs
+          </h3>
+          <p class="feature-title-text">
+            View detailed analytics data for your APIs
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="feature-box">
+          <i class="fa fa-building"></i>
+          <h3 class="feature-title">
+            Select your proxy
+          </h3>
+          <p class="feature-title-text">
+            Select the right proxy for your API (future)
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+        <div class="row mt">
+			<div class="col-lg-8">
+				<h1>Simple API Management - Easy API Discovery</h1>
+				<p><a href="https://apinf.io" target="_blank">APInf</a> platform offers a comprehensive, yet easy to use API management tool. 
+				<a href="https://apinf.io" target="_blank">APInf</a> provides simplified workflow for API owners for common Api management tasks.
+				At the same time, it serves as a self-service tool for API consumers for discovering APIs 
+				and taking them to use.</p>
 			</div>
-
-			<div class="col-lg-3">
-				<img src="assets/img/key.png" width="180" alt="">
-				<h4>Key Generation</h4>
-				<p>allows users to authenticate on your API</p>
-
-			</div>
-
-			<div class="col-lg-3">
-				<img src="assets/img/technical_wrench.png" width="180" alt="">
-				<h4>Configuration</h4>
-				<p>configure API endpoints, structure, and access control</p>
-
-			</div>
-
-            <div class="col-lg-3">
-				<img src="assets/img/monitor.png" width="180" alt="">
-				<h4>Analytics</h4>
-				<p>track the usage of your api, discover patterns, plan improvements</p>
-
-			</div>
-		</div>
-        <!-- /Components block -->
-
-        <div class="row mt centered">
-			<div class="col-lg-12">
-				<h1>Simplify</h1>
-				<h3>API managers need a unified, simple interface to perform complex API Management tasks.</h3>
-			</div>
-			<div class="row scr-shot">
-				<img alt="Add API Backend Example" class="img-responsive" src="assets/img/scr4.png">
+			<div class="col-lg-4">
+				<img alt="Apinf dashboard" class="img-responsive" src="assets/img/dashboard.png">
 			</div>
 	   </div>
-        <div class="row mt centered">
-			<div class="col-lg-12">
-				<h1>Where?</h1>
-				<h3>See where your API consumers are located.</h3>
+        <div class="row mt">
+			<div class="col-lg-8">
+				<h1>Open source, open development</h1>
+				<p>APInf team has chosen complete openness: we have a MIT license for entire source code. There are no closed-source components.
+				Openness extends to the software development processes: we provide full transparency and visibility to our processes, progress 
+				and documentation.</p>
+				<p>We also want to welcome all interested contributors to join the development effort.</p>
 			</div>
-			<div class="row scr-shot">
-				<img alt="Add API Backend Example" class="img-responsive" src="assets/img/scr3.png">
+			<div class="col-lg-4">
+				<img alt="Open source" class="img-responsive" src="assets/img/opensource.png">
 			</div>
+
 	   </div>
-         <div class="row mt centered">
+         <div class="row mt">
 			<div class="col-lg-12">
-				<h1>Who/What?</h1>
-				<h3>See who is calling your API and what they're interested in.</h3>
+				<h1>How to join</h1>
+				<ul>
+					<li>There are several ways you can contribute:</li>
+					<li>Contribute to our <a href="https://apinf.hackpad.com">planning documents</a></li>
+					<li>Report bugs on our <a href="https://github.com/apinf/api-umbrella-dashboard/issues/new">issue tracker</a></li> 
+					<li>Add documentation via our <a href="https://github.com/apinf/docs">documentation repository</a></li>
+					<li>Improve the code with pull requests</li>
+					<li>Choose a task from our <a href="https://github.com/apinf/api-umbrella-dashboard/issues">backlog</a></li>
+					</ul>
+				<p> See also our <a href="https://github.com/apinf/api-umbrella-dashboard/blob/develop/CONTRIBUTING.md">contributing guidelines</a>
+				</p>
 			</div>
-			<div class="row scr-shot">
-				<img alt="Add API Backend Example" class="img-responsive" src="assets/img/scr2.png">
-			</div>
+
 	   </div>
-         <div class="row mt centered">
+         <div class="row mt">
 			<div class="col-lg-12">
-				<h1>When?</h1>
-				<h3>Chart usage over time, discover patterns, plan.</h3>
+				<h1>Resources</h1>
+					<ul>
+						<li>Try APInf out at <a href="https://apinf.io/" target="_blank">apinf.io</a></li>
+						<li>Join the discussion at <a href="https://community.apinf.io/">Discourse</a></li>
+						<li>Follow us on <a href="https://www.facebook.com/APInf.io">Facebook</a> and <a href="https://twitter.com/APInf_io">Twitter</a></li>
+					</ul>
 			</div>
-			<div class="row scr-shot">
-				<img alt="Add API Backend Example" class="img-responsive" src="assets/img/scr1.png">
-			</div>
+
 	   </div>
-         <div class="row mt centered">
-			<div class="col-lg-12">
-				<h1>API Consumers</h1>
-				<h3>Offer developers a one-stop location to learn about and use your API.</h3>
-			</div>
-             <div class="row scr-shot">
-				<img alt="Add API Backend Example" class="img-responsive" src="assets/img/scr5.png">
-			</div>
-	   </div>
+ 
 	</div>
+
 <footer>
     <div class="container">
         <ul class="list-inline">
-            <li>© 2014 Apinf</li>
-            <li class="pull-right"><a href="#" data-toggle="modal" data-target="#myModal">Sign up</a></li>
-            <!-- <li class="pull-right"><a href="#">Contact</a></li> -->
-            <!-- <li class="pull-right"><a href="#">Documentation</a></li> -->
+            <li>© 2016 APInf</li>
+            <!--<li class="pull-right">Contact us at</li> -->
 	</div>
 </footer>
 
