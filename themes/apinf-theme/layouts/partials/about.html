@@ -7,7 +7,6 @@
         <h2 class="section-heading">{{ . }}</h2>
         {{ end }}
         {{ if and .Site.Params.about.headline .Site.Params.about.description }}
-        <hr class="light">
         {{ end }}
         {{ with .Site.Params.about.description }}
         <p class="text-faded">{{ . | markdownify }}</p>
@@ -18,4 +17,5 @@
       </div>
     </div>
   </div>
+      <img src="../img/dashboard.png" alt="Slick Dashboard" class="dashboard-screenshot">
 </section>

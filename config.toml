@@ -32,9 +32,8 @@ theme = "apinf-theme"
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
+		headline    = "Sleek dashboard"
+		description = "APInf platform offers a comprehensive, yet easy to use API management tool. APInf provides simplified workflow for API owners for common Api management tasks. At the same time, it serves as a self-service tool for API consumers for discovering APIs and taking them to use."
 
 
 	# Service section
