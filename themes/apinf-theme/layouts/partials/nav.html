@@ -1,6 +1,6 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
+  <div class="container">
     {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -26,9 +26,9 @@
           <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>
         </li>
         {{ end }}
-        {{ if and .Site.Data.projects .Site.Params.navigation.links.portfolio }}
+        {{ if and .Site.Params.contact .Site.Params.navigation.links.team }}
         <li>
-          <a class="page-scroll" href="#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
+          <a class="page-scroll" href="#team">{{ .Site.Params.navigation.links.team }}</a>
         </li>
         {{ end }}
         {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
@@ -36,9 +36,14 @@
           <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>
         </li>
         {{ end }}
+        {{ if and .Site.Params.contact .Site.Params.navigation.links.blog }}
+        <li>
+          <a href="https://medium.com">{{ .Site.Params.navigation.links.blog }}</a>
+        </li>
+        {{ end }}
       </ul>
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}
   </div>
-  {{ "<!-- /.container-fluid -->" | safeHTML }}
+  {{ "<!-- /.container -->" | safeHTML }}
 </nav>
