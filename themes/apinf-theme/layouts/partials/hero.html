@@ -6,7 +6,6 @@
       <h1>{{ . | markdownify  }}</h1>
       {{ end }}
       {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
-      <hr>
       {{ end }}
       {{ with .Site.Params.hero.subtitle }}
       <p>{{ . | markdownify }}</p>
