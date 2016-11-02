@@ -18,8 +18,10 @@ theme = "apinf-theme"
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Services"
-			contact   = "Contact"
+			services  = "Features"
+			team 			= "Team"
+			contact 	= "Contact"
+			blog   		= "Blog"
 
 
 	# Hero section
@@ -38,27 +40,27 @@ theme = "apinf-theme"
 
 	# Service section
 	[params.services]
-		headline = "At your service"
+		headline = "Are you an API user?"
 
         [[params.services.list]]
             icon = "mdi-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+            title = "Discover APIs"
+            description = "Find and bookmark useful APIs"
 
         [[params.services.list]]
 			icon = "mdi-send"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+			title = "Get API key"
+			description = "Sign up and get your API key"
 
 		[[params.services.list]]
             icon = "mdi-newspaper"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+            title = "Check API documentation"
+            description = "Swagger viewer available"
 
         [[params.services.list]]
             icon = "mdi-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+            title = "Mix APIs"
+            description = "Mix APIs from several sources"
 
 
     # Portfolio modals
@@ -70,11 +72,11 @@ theme = "apinf-theme"
 
     # Aside section
 	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+		headline = "Start managing APIs now"
 
 		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+			text = "Get started"
+			link = "//apinf.io"
 
 	# Contact section
 	[params.contact]
