@@ -1,0 +1,27 @@
+{{ "<!-- USERS -->" | safeHTML }}
+<section id="user-features">
+  {{ with .Site.Params.features.users.headline }}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ . }}</h2>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  <div class="container">
+    <div class="row">
+      {{ range .Site.Params.features.users.list }}
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="service-box">
+          <i class="mdi mdi-48px {{ .icon }} wow bounceIn text-primary"></i>
+          <h3>{{ .title }}</h3>
+          {{ with .description }}
+          <p class="text-muted">{{ . }}</p>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
