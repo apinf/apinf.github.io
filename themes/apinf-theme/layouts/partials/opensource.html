@@ -1,0 +1,39 @@
+{{ "<!-- OPENSOURCE -->" | safeHTML }}
+<section id="opensource">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        {{ with .Site.Params.opensource.headline }}
+        <h2 class="section-heading">{{ . }}</h2>
+        {{ end }}
+        {{ if and .Site.Params.opensource.headline .Site.Params.opensource.description }}
+        {{ end }}
+        {{ with .Site.Params.opensource.description }}
+        <p class="description-padding">{{ . | markdownify }}</p>
+        <ul class="list-inline">
+          <li>
+            <a class="btn btn-primary outline" href="https://github.com/apinf">
+              Github
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-primary outline" href="https://http://apinf-documentation.readthedocs.io/en/latest/">
+              Documentation
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-primary outline" href="https://community.apinf.io/">
+              Community
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-primary outline" href="https://medium.com/apinf">
+              Blog
+            </a>
+          </li>
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
