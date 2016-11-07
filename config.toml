@@ -5,8 +5,8 @@ theme = "apinf-theme"
 
 [params]
 
-	name = "Your name"
-	description = "Your description"
+	name = "APINF"
+	description = "API Management Platform"
 
 	# The path must be relative to the static folder
 	favicon = "/favicon.ico"
@@ -18,7 +18,9 @@ theme = "apinf-theme"
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Features"
+			opensource= "Opensource"
+			features  = "Features"
+			documentation 	= "Documentation"
 			team 			= "Team"
 			contact 	= "Contact"
 			blog   		= "Blog"
@@ -34,53 +36,84 @@ theme = "apinf-theme"
 
 	# About section
 	[params.about]
-		headline    = "Sleek dashboard"
+		headline    = "Simple API Management"
 		description = "APInf platform offers a comprehensive, yet easy to use API management tool. APInf provides simplified workflow for API owners for common Api management tasks. At the same time, it serves as a self-service tool for API consumers for discovering APIs and taking them to use."
+		buttonText = "Discover more"
 
+# Features
+	# Owner section
+	[params.features.owners]
+		headline = "Are you an API owner?"
 
-	# Service section
-	[params.services]
-		headline = "Are you an API user?"
+		[[params.features.owners.list]]
+	    icon = "mdi-magnify"
+	    title = "Discover APIs"
+	    description = "Find and bookmark useful APIs"
 
-        [[params.services.list]]
-            icon = "mdi-diamond"
-            title = "Discover APIs"
-            description = "Find and bookmark useful APIs"
-
-        [[params.services.list]]
-			icon = "mdi-send"
+		[[params.features.owners.list]]
+			icon = "mdi-key"
 			title = "Get API key"
 			description = "Sign up and get your API key"
 
-		[[params.services.list]]
-            icon = "mdi-newspaper"
-            title = "Check API documentation"
-            description = "Swagger viewer available"
+		[[params.features.owners.list]]
+	    icon = "mdi-file-document-box"
+	    title = "Check API documentation"
+	    description = "Swagger viewer available"
 
-        [[params.services.list]]
-            icon = "mdi-heart"
-            title = "Mix APIs"
-            description = "Mix APIs from several sources"
+		[[params.features.owners.list]]
+	    icon = "mdi-pot-mix"
+	    title = "Mix APIs"
+	    description = "Mix APIs from several sources"
 
+	# User section
+	[params.features.users]
+		headline = "Are you an API user?"
 
-    # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
+		[[params.features.users.list]]
+	    icon = "mdi-arrow-up-bold"
+	    title = "Publish your APIs"
+	    description = "Make your APIs easily available for developers"
 
-    # Aside section
-	[params.aside]
-		headline = "Start managing APIs now"
+		[[params.features.users.list]]
+			icon = "mdi-settings"
+			title = "Manage your APIs"
+			description = "Easily manage and configure your API endpoints and access control"
 
-		[params.aside.button]
-			text = "Get started"
-			link = "//apinf.io"
+		[[params.features.users.list]]
+	    icon = "mdi-chart-line"
+	    title = "Track your APIs"
+	    description = "View detailed analytics data for your APIs"
+
+		[[params.features.users.list]]
+	    icon = "mdi-domain"
+	    title = "Select your proxy"
+	    description = "Select the right proxy for your API"
+
+    # Opensource section
+	[params.opensource]
+		headline = "We don’t just talk about Open Source, we live it too."
+		description = "APinf is powered by API Umbrella and builds a dashboard on top of the API Umbrella features. The solution is fully open source licensed with MIT. It is written in Meteor.js and D3. We like to collaborate, to listen to our users and want to encourage people to become contributors."
+
+		[[params.opensource.list]]
+	    buttonText = "Text"
+
+		[[params.opensource.list]]
+			buttonText = "Text"
+
+		[[params.opensource.list]]
+			buttonText = "Text"
+
+		[[params.opensource.list]]
+	    buttonText = "Text"
+
+	    # Team section
+		[params.team]
+			headline = "Our team"
+			description	= "People behind APINF"
 
 	# Contact section
 	[params.contact]
-		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		headline = "How may we help you?"
+		description = "We want your input, questions, bug reports, complaints, praise, feature requests - every little bit helps."
 		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		email = "info@apinf.io"
