@@ -1,6 +1,6 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
+  <div class="container-fluid">
     {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -10,7 +10,9 @@
         <span class="icon-bar"></span>
       </button>
       {{ with .Site.Params.navigation.brand }}
-      <a class="navbar-brand page-scroll" href="#page-top">{{ . | markdownify }}</a>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <img class="img-responsive" src="/apinf_logo.png" style="width: 130px;" alt="">
+      </a>
       {{ end }}
     </div>
     {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
@@ -21,9 +23,14 @@
           <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>
         </li>
         {{ end }}
-        {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
+        {{ if and .Site.Params.features.owners.list .Site.Params.navigation.links.features }}
         <li>
-          <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>
+          <a class="page-scroll" href="#owner-features">{{ .Site.Params.navigation.links.features }}</a>
+        </li>
+        {{ end }}
+        {{ if and .Site.Params.contact .Site.Params.navigation.links.opensource }}
+        <li>
+          <a class="page-scroll" href="#opensource">{{ .Site.Params.navigation.links.opensource }}</a>
         </li>
         {{ end }}
         {{ if and .Site.Params.contact .Site.Params.navigation.links.team }}
