@@ -60,7 +60,7 @@ p {
 }
 
 #about p {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   margin-top: 40px;
 }
 
@@ -68,8 +68,46 @@ p {
   font-size: 40px;
 }
 
-#services h2 {
-  font-size: 40px;
+#about .btn {
+  margin-bottom: 60px;
+}
+
+#opensource {
+  background-color: #E8F5E9;
+}
+
+section h2 {
+  font-size: 30px;
+}
+
+#user-features {
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+#contact {
+  background-color: #f2f2f2;
+}
+
+#contact {
+  color: #333;
+}
+
+#contact a {
+  font-size: 24px;
+}
+
+.phone-number {
+  font-size: 24px;
+}
+
+#footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#footer .social-buttons .mdi {
+  font-size: 20px;
 }
 
 .bg-dark {
@@ -139,7 +177,17 @@ aside {
 }
 
 @media(min-width:768px) {
+  .container-fluid {
+      padding-right: 80px;
+      padding-left: 80px;
+    }
+
+  .nav {
+      margin-top: 10px;
+  }
+
     .navbar-default {
+
         background-color: transparent;
     }
 
@@ -210,6 +258,8 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
+  margin-right: auto;
+  margin-left: auto;
     font-weight: 500;
 }
 
@@ -222,27 +272,36 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
+      margin-right: auto;
+      margin-left: auto;
         min-height: 100%;
     }
 
     header .header-content {
         position: absolute;
         top: 50%;
-        padding: 0 200px;
+        padding: 0 100px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
 
     header .header-content .header-content-inner {
+      margin-right: auto;
+      margin-left: auto;
         max-width: 960px;
-        text-align: left;
     }
 
     header .header-content .header-content-inner p {
+      margin-right: auto;
+      margin-left: auto;
         max-width: 80%;
         font-size: 25px;
-        text-align: left;
+    }
+
+    .description-padding {
+      padding-top: 40px;
+      padding-bottom: 60px;
     }
 }
 
@@ -392,6 +451,26 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 600;
 }
 
+.outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .25s;
+}
+
+.btn-primary.outline {
+    color: #428bca;
+    border: 1px solid #428bca
+}
+
+.btn-primary.outline:hover,
+.btn-success.outline:hover,
+.btn-info.outline:hover,
+.btn-warning.outline:hover,
+.btn-danger.outline:hover {
+    color: #fff;
+    border: 1px solid #ec951d;
+}
+
 .btn-xl {
     padding: 15px 30px;
 }
@@ -420,4 +499,21 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
 }
