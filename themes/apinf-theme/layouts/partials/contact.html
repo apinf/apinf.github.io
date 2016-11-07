@@ -7,10 +7,9 @@
         <h2 class="section-heading">{{ . }}</h2>
         {{ end }}
         {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
-        <hr class="primary">
         {{ end }}
         {{ with .Site.Params.contact.description }}
-        <p>{{ . | markdownify }}</p>
+        <p class="description-padding">{{ . | markdownify }}</p>
         {{ end }}
       </div>
       {{ if .Site.Params.contact.phone }}
@@ -22,7 +21,7 @@
       {{ end }}
       col-lg-offset-2 text-center">
       <i class="mdi mdi-phone mdi-24px wow bounceIn"></i>
-      <p>{{ .Site.Params.contact.phone }}</p>
+      <p class="phone-number">{{ .Site.Params.contact.phone }}</p>
     </div>
     {{ end }}
     {{ if .Site.Params.contact.email }}
