@@ -30,7 +30,7 @@ theme = "apinf-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "API Management Platform"
-		subtitle   = "Building a bridge between API owners and users"
+		subtitle   = "Develop. We do the rest."
 		buttonText = "Get started"
 
 
@@ -115,5 +115,4 @@ theme = "apinf-theme"
 	[params.contact]
 		headline = "How may we help you?"
 		description = "We want your input, questions, bug reports, complaints, praise, feature requests - every little bit helps."
-		phone = "123-456-6789"
 		email = "info@apinf.io"
