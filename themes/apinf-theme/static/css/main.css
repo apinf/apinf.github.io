@@ -45,7 +45,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #418FDE;
+    background-color: #2fa4e7;
 }
 
 .bg-primary .dashboard-screenshot {
@@ -73,7 +73,8 @@ p {
 }
 
 #opensource {
-  background-color: #E8F5E9;
+  background-color: #28ae4f;
+  color: #fff;
 }
 
 section h2 {
@@ -458,8 +459,9 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary.outline {
-    color: #428bca;
-    border: 1px solid #428bca
+    padding: 15px 30px;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 .btn-primary.outline:hover,
