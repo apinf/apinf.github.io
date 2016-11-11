@@ -41,50 +41,50 @@ theme = "apinf-theme"
 		buttonText = "Discover more"
 
 # Features
-	# Owner section
-	[params.features.owners]
-		headline = "Are you an API owner?"
-
-		[[params.features.owners.list]]
-	    icon = "mdi-magnify"
-	    title = "Discover APIs"
-	    description = "Find and bookmark useful APIs"
-
-		[[params.features.owners.list]]
-			icon = "mdi-key"
-			title = "Get API key"
-			description = "Sign up and get your API key"
-
-		[[params.features.owners.list]]
-	    icon = "mdi-file-document-box"
-	    title = "Check API documentation"
-	    description = "Swagger viewer available"
-
-		[[params.features.owners.list]]
-	    icon = "mdi-pot-mix"
-	    title = "Mix APIs"
-	    description = "Mix APIs from several sources"
-
-	# User section
+	# Users section
 	[params.features.users]
 		headline = "Are you an API user?"
 
 		[[params.features.users.list]]
+	    icon = "mdi-magnify"
+	    title = "Discover APIs"
+	    description = "Find and bookmark useful APIs"
+
+		[[params.features.users.list]]
+			icon = "mdi-key"
+			title = "Get API key"
+			description = "Sign up and get your API key"
+
+		[[params.features.users.list]]
+	    icon = "mdi-file-document-box"
+	    title = "Check API documentation"
+	    description = "Swagger viewer available"
+
+		[[params.features.users.list]]
+	    icon = "mdi-pot-mix"
+	    title = "Mix APIs"
+	    description = "Mix APIs from several sources"
+
+	# Owners section
+	[params.features.owners]
+		headline = "Are you an API owner?"
+
+		[[params.features.owners.list]]
 	    icon = "mdi-arrow-up-bold"
 	    title = "Publish your APIs"
 	    description = "Make your APIs easily available for developers"
 
-		[[params.features.users.list]]
+		[[params.features.owners.list]]
 			icon = "mdi-settings"
 			title = "Manage your APIs"
 			description = "Easily manage and configure your API endpoints and access control"
 
-		[[params.features.users.list]]
+		[[params.features.owners.list]]
 	    icon = "mdi-chart-line"
 	    title = "Track your APIs"
 	    description = "View detailed analytics data for your APIs"
 
-		[[params.features.users.list]]
+		[[params.features.owners.list]]
 	    icon = "mdi-domain"
 	    title = "Select your proxy"
 	    description = "Select the right proxy for your API"
