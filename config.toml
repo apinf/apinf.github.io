@@ -108,9 +108,49 @@ theme = "apinf-theme"
 
 	    # Team section
 		[params.team]
-			headline = "Our team"
-			description	= "People behind APINF"
+			headline = "Core team"
 
+			[[params.team.list]]
+				name = "Chandra Challagonda"
+				title = "CEO"
+				photo = "/img/team/chandra.jpg"
+				twitter = "https://twitter.com"
+
+			[[params.team.list]]
+				name = "Taija Bjorklund"
+				title = "Product Owner"
+				photo = "/img/team/taija.jpg"
+				twitter = "https://twitter.com"
+
+			[[params.team.list]]
+				name = "Laura"
+				title = "Marketing"
+				photo = "/img/team/laura.jpg"
+				twitter = "https://twitter.com"
+
+			[[params.team.list]]
+				name = "Brylie"
+				title = "Developer"
+				photo = "/img/team/brylie.jpg"
+				twitter = "https://twitter.com"
+
+			[[params.team.list]]
+				name = "Damir"
+				title = "Developer"
+				photo = "/img/team/damir.jpg"
+				twitter = "https://twitter.com"
+
+			[[params.team.list]]
+				name = "Illya"
+				title = "Developer"
+				photo = "/img/team/illya.jpg"
+				twitter = "https://twitter.com"
+
+			[[params.team.list]]
+				name = "Nazia Hasan"
+				title = "UX"
+				photo = "/img/team/nazia.jpg"
+				twitter = "https://twitter.com"
 	# Contact section
 	[params.contact]
 		headline = "How may we help you?"
