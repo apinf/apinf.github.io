@@ -6,58 +6,19 @@
         {{ with .Site.Params.team.headline }}
         <h2 class="section-heading">{{ . }}</h2>
         {{ end }}
-        {{ if and .Site.Params.team.headline .Site.Params.team.description }}
-        {{ end }}
-        {{ with .Site.Params.team.description }}
-        <p class="description-padding">{{ . | markdownify }}</p>
-        <div class="row">
-               <div class="col-sm-4">
-                   <div class="team-member">
-                       <img src="https://avatars2.githubusercontent.com/u/7489044?v=3&s=466" class="img-responsive img-circle" alt="">
-                       <h4>Kai II</h4>
-                       <p class="text-muted">CEO</p>
-                       <ul class="list-inline social-buttons">
-                           <li><a href="#"><i class="mdi mdi-twitter"></i></a>
-                           </li>
-                           <li><a href="#"><i class="mdi mdi-facebook"></i></a>
-                           </li>
-                           <li><a href="#"><i class="mdi mdi-linkedin"></i></a>
-                           </li>
-                       </ul>
-                   </div>
-               </div>
-               <div class="col-sm-4">
-                   <div class="team-member">
-                       <img src="https://avatars2.githubusercontent.com/u/7489044?v=3&s=466" class="img-responsive img-circle" alt="">
-                       <h4>Peter IV</h4>
-                       <p class="text-muted">Developer</p>
-                       <ul class="list-inline social-buttons">
-                           <li><a href="#"><i class="mdi mdi-twitter"></i></a>
-                           </li>
-                           <li><a href="#"><i class="mdi mdi-facebook"></i></a>
-                           </li>
-                           <li><a href="#"><i class="mdi mdi-linkedin"></i></a>
-                           </li>
-                       </ul>
-                   </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="team-member">
-                     <img src="https://avatars2.githubusercontent.com/u/7489044?v=3&s=466" class="img-responsive img-circle" alt="">
-                     <h4>John III</h4>
-                     <p class="text-muted">Designer</p>
-                     <ul class="list-inline social-buttons">
-                         <li><a href="#"><i class="mdi mdi-twitter"></i></a>
-                         </li>
-                         <li><a href="#"><i class="mdi mdi-facebook"></i></a>
-                         </li>
-                         <li><a href="#"><i class="mdi mdi-linkedin"></i></a>
-                         </li>
-                     </ul>
-                 </div>
-               </div>
-        {{ end }}
       </div>
+      {{ range .Site.Params.team.list }}
+      <div class="col-sm-3">
+        <div class="team-member">
+          <img src="{{ .photo }}" class="img-responsive img-circle" alt="">
+          <h4>{{ .name }}</h4>
+          <p class="text-muted">{{ .title }}</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="{{ .twitter }}"><i class="mdi mdi-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {{ end }}
     </div>
-  </div>
-</section>
+  </section>
