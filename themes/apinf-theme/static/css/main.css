@@ -105,10 +105,12 @@ section h2 {
 #footer {
   padding: 20px 0;
   text-align: center;
+  color: #fff;
+  background-color: #FF9D00;
 }
 
 #footer .social-buttons .mdi {
-  font-size: 20px;
+  color: #fff;
 }
 
 .bg-dark {
