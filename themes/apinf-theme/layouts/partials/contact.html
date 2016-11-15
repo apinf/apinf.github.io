@@ -2,40 +2,18 @@
 <section id="contact">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        {{ with .Site.Params.contact.headline }}
-        <h2 class="section-heading">{{ . }}</h2>
-        {{ end }}
-        {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
-        {{ end }}
-        {{ with .Site.Params.contact.description }}
-        <p class="description-padding">{{ . | markdownify }}</p>
-        {{ end }}
+      <div class="col-lg-6">
+        <h3>Get started -></h3>
+        <p>
+          Sound like what you've been looking for? Check out the getting started guide and learn how to get up and running in less than a minute.
+        </p>
       </div>
-      {{ if .Site.Params.contact.phone }}
-      <div class="
-      {{ if .Site.Params.contact.email }}
-      col-lg-4
-      {{ else }}
-      col-lg-8
-      {{ end }}
-      col-lg-offset-2 text-center">
-      <i class="mdi mdi-phone mdi-24px wow bounceIn"></i>
-      <p class="phone-number">{{ .Site.Params.contact.phone }}</p>
+      <div class="col-lg-6">
+        <h3>Get started -></h3>
+        <p>
+          If you are using Keystone for a project, interested in contributing, or looking for commercial support, we'd love to hear about it. Please contact us.
+        </p>
+      </div>
     </div>
-    {{ end }}
-    {{ if .Site.Params.contact.email }}
-    <div class="
-    {{ if .Site.Params.contact.phone }}
-    col-lg-4
-    {{ else }}
-    col-lg-8 col-lg-offset-2
-    {{ end }}
-    text-center">
-    <i class="mdi mdi-email mdi-24px wow bounceIn" data-wow-delay=".1s"></i>
-    <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
   </div>
-  {{ end }}
-</div>
-</div>
 </section>
