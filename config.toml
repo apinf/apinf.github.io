@@ -89,6 +89,36 @@ theme = "apinf-theme"
 	    title = "Select your proxy"
 	    description = "Select the right proxy for your API"
 
+		# Features
+			# Users section
+			[params.services]
+				headline = "Services"
+				description = "From consultation to deployment, the APInf team is here to help you get the most out of APIs and APInf."
+
+				[[params.services.list]]
+			    title = "Self-hosted deployments"
+			    description = "Find and bookmark useful APIs"
+
+				[[params.services.list]]
+					title = "Whitelabeling and customization"
+					description = "Sign up and get your API key"
+
+				[[params.services.list]]
+			    title = "Custom development"
+			    description = "Swagger viewer available"
+
+				[[params.services.list]]
+			    title = "Onboarding to apinf.io SaaS"
+			    description = "Mix APIs from several sources"
+
+				[[params.services.list]]
+					title = "API consultancy and training"
+					description = "Mix APIs from several sources"
+
+				[[params.services.list]]
+					title = "API design and Swagger"
+					description = "Mix APIs from several sources"
+
     # Opensource section
 	[params.opensource]
 		headline = "We don’t just talk about Open Source, we live it too."
@@ -131,7 +161,7 @@ theme = "apinf-theme"
 			[[params.team.list]]
 				name = "Philippe Luickx"
 				title = "Business Developer"
-				photo = "/img/team/laura.jpg"
+				photo = "/img/team/phillipe.jpg"
 				twitter = "https://twitter.com"
 				github = ""
 				email = ""
