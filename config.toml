@@ -120,7 +120,7 @@ theme = "apinf-theme"
 				medium = ""
 
 			[[params.team.list]]
-				name = "Taija Bjorklund"
+				name = "Taija Björklund"
 				title = "Product Owner"
 				photo = "/img/team/taija.jpg"
 				twitter = "https://twitter.com"
@@ -129,8 +129,8 @@ theme = "apinf-theme"
 				medium = ""
 
 			[[params.team.list]]
-				name = "Laura"
-				title = "Marketing"
+				name = "Philippe Luickx"
+				title = "Business Developer"
 				photo = "/img/team/laura.jpg"
 				twitter = "https://twitter.com"
 				github = ""
@@ -138,8 +138,8 @@ theme = "apinf-theme"
 				medium = ""
 
 			[[params.team.list]]
-				name = "Brylie"
-				title = "Developer"
+				name = "Brylie Oxley"
+				title = "Architect"
 				photo = "/img/team/brylie.jpg"
 				twitter = "https://twitter.com"
 				github = ""
@@ -147,18 +147,27 @@ theme = "apinf-theme"
 				medium = ""
 
 			[[params.team.list]]
-				name = "Damir"
-				title = "Developer"
-				photo = "/img/team/damir.jpg"
+				name = "Laura Ekman"
+				title = "Marketing Coordinator"
+				photo = "/img/team/laura.jpg"
 				twitter = "https://twitter.com"
 				github = ""
 				email = ""
 				medium = ""
 
 			[[params.team.list]]
-				name = "Illya"
-				title = "Developer"
-				photo = "/img/team/illya.jpg"
+				name = "Vesa Härkönen"
+				title = "Internal Customer"
+				photo = "/img/team/vesa.jpg"
+				twitter = "https://twitter.com"
+				github = ""
+				email = ""
+				medium = ""
+
+			[[params.team.list]]
+				name = "Ville Jyrkkä"
+				title = "SW Developer"
+				photo = "/img/team/ville.jpg"
 				twitter = "https://twitter.com"
 				github = ""
 				email = ""
@@ -166,8 +175,44 @@ theme = "apinf-theme"
 
 			[[params.team.list]]
 				name = "Nazia Hasan"
-				title = "UX"
+				title = "UX Designer"
 				photo = "/img/team/nazia.jpg"
+				twitter = "https://twitter.com"
+				github = ""
+				email = ""
+				medium = ""
+
+			[[params.team.list]]
+				name = "Illya Nizyev"
+				title = "SW Developer"
+				photo = "/img/team/illya.jpg"
+				twitter = "https://twitter.com"
+				github = ""
+				email = ""
+				medium = ""
+
+			[[params.team.list]]
+				name = "Damir Mustafin"
+				title = "SW Developer"
+				photo = "/img/team/damir.jpg"
+				twitter = "https://twitter.com"
+				github = ""
+				email = ""
+				medium = ""
+
+			[[params.team.list]]
+				name = "Daria Voytova"
+				title = "SW Developer"
+				photo = "/img/team/nazia.jpg"
+				twitter = "https://twitter.com"
+				github = ""
+				email = ""
+				medium = ""
+
+			[[params.team.list]]
+				name = "Shaliko Usubov"
+				title = "DevOPS"
+				photo = "/img/team/shaliko.jpg"
 				twitter = "https://twitter.com"
 				github = ""
 				email = ""
