@@ -28,6 +28,11 @@
           <a class="page-scroll" href="#owner-features">{{ .Site.Params.navigation.links.features }}</a>
         </li>
         {{ end }}
+        {{ if and .Site.Params.services .Site.Params.navigation.links.services }}
+        <li>
+          <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>
+        </li>
+        {{ end }}
         {{ if and .Site.Params.contact .Site.Params.navigation.links.opensource }}
         <li>
           <a class="page-scroll" href="#opensource">{{ .Site.Params.navigation.links.opensource }}</a>
