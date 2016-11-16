@@ -544,3 +544,16 @@ body {
   margin-top: 0;
   font-size: 14px;
 }
+
+#services {
+  background-color: #f2f2f2;
+}
+
+#services h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#services .service-box {
+  padding: 20px;
+}
