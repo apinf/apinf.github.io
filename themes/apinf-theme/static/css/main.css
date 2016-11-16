@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
 }
 
 a {
@@ -35,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -77,8 +77,8 @@ p {
 }
 
 #opensource {
-  background-color: #28ae4f;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
 }
 
 section h2 {
@@ -90,6 +90,14 @@ section h2 {
   padding-bottom: 100px;
 }
 
+#user-features h2, #owner-features h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+
 #contact {
   background-color: #2fa4e7;
 }
@@ -97,7 +105,7 @@ section h2 {
 #contact .right-col {
   border-left: 1px solid #fff;
   padding-left: 30px;
-  }
+}
 
 #contact {
   color: #fff;
@@ -110,7 +118,7 @@ section h2 {
 
 #contact h3 {
   margin-bottom: 25px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .phone-number {
@@ -151,7 +159,7 @@ aside {
 
 .navbar-default {
   border-color: rgba(34,34,34,.05);
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
   background-color: #fff;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
@@ -160,7 +168,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
   text-transform: uppercase;
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
   font-weight: 700;
   color: #FF9D00;
 }
@@ -279,6 +287,7 @@ header .header-content .header-content-inner h1 {
   margin-right: auto;
   margin-left: auto;
   font-weight: 500;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.25),0 1px 25px rgba(0,0,0,0.75);
 }
 
 header .header-content .header-content-inner p {
@@ -286,13 +295,14 @@ header .header-content .header-content-inner p {
   font-size: 25px;
   font-weight: 400;
   color: rgba(255,255,255,.7);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.25),0 1px 25px rgba(0,0,0,0.75);
 }
 
 @media(min-width:768px) {
   header {
     margin-right: auto;
     margin-left: auto;
-    min-height: 62%;
+    min-height: 70%;
   }
 
   header .header-content {
@@ -315,16 +325,19 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     max-width: 80%;
     font-size: 35px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.25),0 1px 25px rgba(0,0,0,0.75);
   }
 
   .description-padding {
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
   }
 }
 
 .section-heading {
   margin-top: 0;
+  font-size: 40px;
 }
 
 .service-box {
@@ -465,7 +478,7 @@ fieldset[disabled] .btn-primary.active {
   border: 0;
   border-radius: 2px;
   text-transform: uppercase;
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
   font-weight: 600;
 }
 
@@ -477,8 +490,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary.outline {
   padding: 15px 30px;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #28ae4f;
+  border: 1px solid #28ae4f;
 }
 
 .btn-primary.outline:hover,
@@ -487,7 +500,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-warning.outline:hover,
 .btn-danger.outline:hover {
   color: #fff;
-  border: 1px solid #ec951d;
+  border: 1px solid #28ae4f;
+  background-color: #28ae4f;
 }
 
 .btn-xl {
@@ -520,6 +534,10 @@ body {
   webkit-tap-highlight-color: #222;
 }
 
+#team {
+  background-color: #fafafa;
+}
+
 #team img {
   max-width: 151px;
   height: 151px;
@@ -550,12 +568,13 @@ body {
 }
 
 #services {
-  background-color: #f2f2f2;
+  background-color: #2fa4e7;
+  color: #fff;
 }
 
 #services h3 {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 400;
 }
 
 #services .service-box {
