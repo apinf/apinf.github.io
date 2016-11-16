@@ -24,6 +24,10 @@
   {{ partial "userfeatures.html" . }}
   {{ end }}
 
+  {{ if .Site.Params.services.list }}
+  {{ partial "services.html" . }}
+  {{ end }}
+
   {{ if .Site.Params.opensource }}
   {{ partial "opensource.html" . }}
   {{ end }}
