@@ -147,17 +147,15 @@ theme = "apinf-theme"
 				photo = "/img/team/chandra.jpg"
 				twitter = "https://twitter.com"
 				github = ""
-				email = ""
+				linkedin = ""
 				medium = ""
 
 			[[params.team.list]]
 				name = "Taija Björklund"
 				title = "Product Owner"
 				photo = "/img/team/taija.jpg"
-				twitter = "https://twitter.com"
-				github = ""
-				email = ""
-				medium = ""
+				twitter = "https://twitter.com/TaijaBjorklund"
+				medium = "https://medium.com/@TaijaBjorklund"
 
 			[[params.team.list]]
 				name = "Philippe Luickx"
@@ -165,7 +163,7 @@ theme = "apinf-theme"
 				photo = "/img/team/phillipe.jpg"
 				twitter = "https://twitter.com"
 				github = ""
-				email = ""
+				linkedin = ""
 				medium = ""
 
 			[[params.team.list]]
@@ -174,17 +172,15 @@ theme = "apinf-theme"
 				photo = "/img/team/brylie.jpg"
 				twitter = "https://twitter.com"
 				github = ""
-				email = ""
+				linkedin = ""
 				medium = ""
 
 			[[params.team.list]]
 				name = "Laura Ekman"
 				title = "Marketing Coordinator"
 				photo = "/img/team/laura.jpg"
-				twitter = "https://twitter.com"
-				github = ""
-				email = ""
-				medium = ""
+				linkedin = "https://linkedin.com/in/laura-ekman"
+				medium = "https://medium.com/@lauraekman"
 
 			[[params.team.list]]
 				name = "Vesa Härkönen"
@@ -192,35 +188,29 @@ theme = "apinf-theme"
 				photo = "/img/team/vesa.jpg"
 				twitter = "https://twitter.com"
 				github = ""
-				email = ""
+				linkedin = ""
 				medium = ""
 
 			[[params.team.list]]
 				name = "Ville Jyrkkä"
 				title = "SW Developer"
 				photo = "/img/team/ville.jpg"
-				twitter = "https://twitter.com"
-				github = ""
-				email = ""
-				medium = ""
+				twitter = "https://twitter.com/jykae"
+				github = "https://github.com/jykae"
+				linkedin = "https://fi.linkedin.com/in/vjyrkka"
 
 			[[params.team.list]]
 				name = "Nazia Hasan"
 				title = "UX Designer"
 				photo = "/img/team/nazia.jpg"
-				twitter = "https://twitter.com"
-				github = ""
-				email = ""
-				medium = ""
+				twitter = "https://twitter.com/NazarahTheCat"
+				linkedin = "https://linkedin.com/in/naziahasan"
 
 			[[params.team.list]]
 				name = "Illya Nizyev"
 				title = "SW Developer"
 				photo = "/img/team/illya.jpg"
-				twitter = "https://twitter.com"
-				github = ""
-				email = ""
-				medium = ""
+				github = "https://github.com/nnn"
 
 			[[params.team.list]]
 				name = "Damir Mustafin"
@@ -228,26 +218,21 @@ theme = "apinf-theme"
 				photo = "/img/team/damir.jpg"
 				twitter = "https://twitter.com"
 				github = ""
-				email = ""
+				linkedin = ""
 				medium = ""
 
 			[[params.team.list]]
 				name = "Daria Voytova"
 				title = "SW Developer"
 				photo = "/img/team/dasha.jpg"
-				twitter = "https://twitter.com"
-				github = ""
-				email = ""
-				medium = ""
+				github = "https://github.com/marla-singer"
 
 			[[params.team.list]]
 				name = "Shaliko Usubov"
 				title = "DevOPS"
 				photo = "/img/team/shaliko.jpg"
-				twitter = "https://twitter.com"
-				github = ""
-				email = ""
-				medium = ""
+				twitter = "https://twitter.com/usubov"
+				github = "https://github.com/shaliko"
 
 	# Contact section
 	[params.contact]

@@ -15,8 +15,26 @@
         <h4>{{ .name }}</h4>
         <p class="text-muted">{{ .title }}</p>
         <ul class="list-inline social-buttons">
-          <li><a href="{{ .twitter }}"><i class="mdi mdi-twitter"></i></a>
+          {{ if .twitter }}
+          <li>
+            <a href="{{ .twitter }}"><i class="mdi mdi-twitter"></i></a>
           </li>
+          {{ end }}
+          {{ if .github }}
+          <li>
+            <a href="{{ .github }}"><i class="mdi mdi-github-circle"></i></a>
+          </li>
+          {{ end }}
+          {{ if .linkedin }}
+          <li>
+            <a href="{{ .linkedin }}"><i class="mdi mdi-linkedin"></i></a>
+          </li>
+          {{ end }}
+          {{ if .medium }}
+          <li>
+            <a href="{{ .medium }}"><i class="mdi mdi-medium"></i></a>
+          </li>
+          {{ end }}
         </ul>
       </div>
     </div>
