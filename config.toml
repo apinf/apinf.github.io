@@ -160,7 +160,7 @@ theme = "apinf-theme"
 				title = "Business Developer"
 				photo = "/img/team/phillipe.jpg"
 				twitter = "https://twitter.com/PhilippeLuickx"
-				github = "https://github.com/philippeluickx"
+				linkedin = "https://www.linkedin.com/in/philippeluickx"
 				medium = "https://medium.com/@PhilippeLuickx"
 
 			[[params.team.list]]
