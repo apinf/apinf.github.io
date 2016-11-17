@@ -234,7 +234,7 @@ theme = "apinf-theme"
 			[[params.team.list]]
 				name = "Daria Voytova"
 				title = "SW Developer"
-				photo = "/img/team/nazia.jpg"
+				photo = "/img/team/dasha.jpg"
 				twitter = "https://twitter.com"
 				github = ""
 				email = ""
