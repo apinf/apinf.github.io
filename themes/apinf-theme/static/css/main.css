@@ -301,7 +301,13 @@ header .header-content .header-content-inner p {
   header {
     margin-right: auto;
     margin-left: auto;
-    min-height: 70%;
+    height: 70%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   header .header-content {
