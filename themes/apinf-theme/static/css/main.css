@@ -99,6 +99,7 @@ section h2 {
 
 #contact {
   background-color: #2fa4e7;
+  padding: 50px 0;
 }
 
 #contact .right-col {
@@ -145,11 +146,7 @@ section h2 {
 }
 
 section {
-  padding: 100px 0;
-}
-
-aside {
-  padding: 50px 0;
+  padding: 80px 0;
 }
 
 .no-padding {
@@ -584,6 +581,7 @@ body {
 
 #services .service-box {
   padding: 20px;
+  margin-top: 0px;
 }
 
 .meta-info {
@@ -652,3 +650,8 @@ body {
   transform: scale(0);
 }
 .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+
+.services-hr {
+  border-top: 2px solid rgba(255,255,255,0.2);
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+}
