@@ -1,76 +1,61 @@
 {{ "<!-- OWNERS -->" | safeHTML }}
 <section id="features">
-  {{ with .Site.Params.features.owners.headline }}
+  {{ with .Site.Params.features.headline }}
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Here's how it works</h2>
+        <h2 class="section-heading">{{ . }}</h2>
       </div>
     </div>
   </div>
   {{ end }}
   <div id="user-type" class="container">
     <ul class="nav nav-tabs">
+      {{ with .Site.Params.features.owner }}
       <li class="active">
-        <a  href="#owner" data-toggle="tab">Owner</a>
+        <a  href="#owner" data-toggle="tab">{{ . }}</a>
       </li>
-      <li><a href="#user" data-toggle="tab">User</a>
+      {{ end }}
+      {{ with .Site.Params.features.user }}
+      <li>
+        <a href="#user" data-toggle="tab">{{ . }}</a>
       </li>
+      {{ end }}
     </ul>
     <div class="tab-content clearfix">
       <div class="tab-pane active" id="owner">
         <div class="container">
-          <p class="text-center">Focus on building your APIs, while having unified API management features.</p>
-            <div class="col-lg-4 col-md-6 text-center">
-              <div class="service-box">
-                <h3>Publish your API</h3>
-                <img src="../img/add-api.jpg" class="img-circle">
-                <p class="text-muted">Make your APIs easily available for developers</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 text-center">
-              <div class="service-box">
-                <h3>Connect the API to a proxy</h3>
-                <img src="../img/proxy.jpg" class="img-circle">
-                <p class="text-muted">Select the right proxy for your API</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 text-center">
-              <div class="service-box">
-                <h3>Track and manage</h3>
-                <img src="../img/dashboard.jpg" class="img-circle">
-                <p class="text-muted" style="">Easily manage and configure your API endpoints and access control</p>
-              </div>
+          {{ with .Site.Params.features.owners.headline }}
+          <p class="text-center">{{ . }}</p>
+          {{ end }}
+          {{ range .Site.Params.features.owners.list }}
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <h3>{{ .title }}</h3>
+              <img src="{{ .image }}" class="img-circle">
+              <p class="text-muted">{{ .description }}</p>
             </div>
           </div>
+          {{ end }}
         </div>
-        <div class="tab-pane" id="user">
-          <div class="container">
-            <p class="text-center">Some helpful text about time or something</a>
-              <div class="col-lg-4 col-md-6 text-center">
-                <div class="service-box">
-                  <h3>Discover APIs</h3>
-                  <img src="../img/discover.jpg" class="img-circle">
-                  <p class="text-muted">Find and bookmark useful APIs</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 text-center">
-                <div class="service-box">
-                  <h3>Read API documentation</h3>
-                  <img src="../img/documentation.jpg" class="img-circle">
-                  <p class="text-muted">Swagger viewer available</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 text-center">
-                <div class="service-box">
-                  <h3>Get the API key</h3>
-                  <img src="../img/apikey.jpg" class="img-circle">
-                  <p class="text-muted">Sign up to get your API key and start calling APIs</p>
-                </div>
+      </div>
+      <div class="tab-pane" id="user">
+        <div class="container">
+          {{ with .Site.Params.features.users.headline }}
+          <p class="text-center">{{ . }}</a>
+            {{ end }}
+            {{ range .Site.Params.features.users.list }}
+            <div class="col-lg-4 col-md-6 text-center">
+              <div class="service-box">
+                <h3>{{ .title }}</h3>
+                <img src="{{ .image }}" class="img-circle">
+                <p class="text-muted">{{ .description }}</p>
               </div>
             </div>
+            {{ end }}
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>

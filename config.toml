@@ -42,53 +42,47 @@ theme = "apinf-theme"
 		buttonText = "Discover more"
 
 # Features
+[params.features]
+	headline = "Here's how it works"
+	owner = "Owner"
+	user = "User"
 	# Users section
 	[params.features.users]
-		headline = "Are you an API user?"
+		headline = "Some helpful text about time or something."
 
 		[[params.features.users.list]]
-	    icon = "mdi-magnify"
+	    image = "img/discover.jpg"
 	    title = "Discover APIs"
 	    description = "Find and bookmark useful APIs"
 
 		[[params.features.users.list]]
-			icon = "mdi-key"
-			title = "Get API key"
-			description = "Sign up and get your API key"
-
-		[[params.features.users.list]]
-	    icon = "mdi-file-document-box"
-	    title = "Check API documentation"
+	    image = "img/documentation.jpg"
+	    title = "Read API documentation"
 	    description = "Swagger viewer available"
 
 		[[params.features.users.list]]
-	    icon = "mdi-pot-mix"
-	    title = "Mix APIs"
-	    description = "Mix APIs from several sources"
+			image = "img/apikey.jpg"
+			title = "Get the API key"
+			description = "Sign up and get your API key"
 
 	# Owners section
 	[params.features.owners]
-		headline = "Are you an API owner?"
+		headline = "Focus on building your APIs, while having unified API management features."
 
 		[[params.features.owners.list]]
-	    icon = "mdi-arrow-up-bold"
+	    image = "img/add-api.jpg"
 	    title = "Publish your APIs"
 	    description = "Make your APIs easily available for developers"
 
 		[[params.features.owners.list]]
-			icon = "mdi-settings"
-			title = "Manage your APIs"
-			description = "Easily manage and configure your API endpoints and access control"
+			image = "img/proxy.jpg"
+			title = "Connect the API to a proxy"
+			description = "Select the right proxy for your API"
 
 		[[params.features.owners.list]]
-	    icon = "mdi-chart-line"
-	    title = "Track your APIs"
-	    description = "View detailed analytics data for your APIs"
-
-		[[params.features.owners.list]]
-	    icon = "mdi-domain"
-	    title = "Select your proxy"
-	    description = "Select the right proxy for your API"
+	    image = "img/dashboard.jpg"
+	    title = "Track and manage"
+	    description = "Easily manage and configure your API endpoints and access control"
 
 		# Features
 			# Users section
