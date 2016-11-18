@@ -27,10 +27,14 @@
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
+        {{ with .Site.Params.services.contactText }}
         <p class="description-padding">
-          If you have any questions about our services, get in touch. <br/ >We would love to hear from you.
+          {{ . }}
         </p>
-        <a href="mailto:info@apinf.io" class="btn btn-default btn-xl">Contact us</a>
+        {{ end }}
+        {{ with .Site.Params.services.buttonText }}
+        <a href="mailto:info@apinf.io" class="btn btn-default btn-xl">{{ . }}</a>
+        {{ end }}
       </div>
     </div>
   </div>

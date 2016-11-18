@@ -10,19 +10,16 @@
         {{ end }}
         {{ with .Site.Params.opensource.description }}
         <p class="description-padding">{{ . | markdownify }}</p>
-        <ul class="list-inline">
-          <li>
-            <a class="btn btn-primary outline" href="https://github.com/apinf">
-              Github
-            </a>
-          </li>
-          <li>
-            <a class="btn btn-primary outline" href="https://community.apinf.io/">
-              Community
-            </a>
-          </li>
-        </ul>
         {{ end }}
+        <ul class="list-inline">
+          {{ range .Site.Params.opensource.list }}
+          <li>
+            <a class="btn btn-primary outline" href="{{ .link }}">
+              {{ .buttonText }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
       </div>
     </div>
   </div>

@@ -3,20 +3,28 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
+        {{ with .Site.Params.contact.start.headline }}
         <h3>
-          <a href="https://apinf.io/sign-up" class="wow bounceIn">Get started →</a>
+          <a href="https://apinf.io/sign-up">{{ . }} →</a>
         </h3>
+        {{ end }}
+        {{ with .Site.Params.contact.start.description }}
         <p>
-          Sounds like what you've been looking for? Sign in to apinf.io and get going!
+          {{ . }}
         </p>
+        {{ end }}
       </div>
       <div class="col-lg-6 right-col">
+        {{ with .Site.Params.contact.headline }}
         <h3>
-          <a href="mailto:info@apinf.io" class="wow bounceIn">Get in touch →</a>
+          <a href="mailto:info@apinf.io">{{ . }} →</a>
         </h3>
+        {{ end }}
+        {{ with .Site.Params.contact.description }}
         <p>
-          If you are using APInf, interested in contributing, or looking for commercial support, we'd love to hear about it. Please contact us.
+          {{ . }}
         </p>
+        {{ end }}
       </div>
     </div>
   </div>

@@ -17,5 +17,7 @@
       </div>
     </div>
   </div>
-  <img src="../img/dashboard.png" alt="Dashboard" class="dashboard-screenshot">
+  {{ with .Site.Params.about.screenshot }}
+  <img src="{{ . }}" alt="Dashboard" class="dashboard-screenshot">
+  {{ end }}
 </section>

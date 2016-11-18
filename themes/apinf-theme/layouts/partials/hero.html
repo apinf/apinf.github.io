@@ -10,19 +10,20 @@
       {{ with .Site.Params.hero.subtitle }}
       <p>{{ . | markdownify }}</p>
       {{ end }}
-      {{ with .Site.Params.hero.buttonText }}
+      {{ with .Site.Params.hero.register }}
       <a href="https://apinf.io/sign-up" class="btn btn-primary btn-xl">{{ . }}</a>
       {{ end }}
-      <a href="https://apinf.io/sign-up" class="btn btn-success btn-xl">Explore APIs</a>
+      {{ with .Site.Params.hero.explore }}
+      <a href="https://apinf.io/catalogue" class="btn btn-success btn-xl">{{ . }}</a>
+      {{ end }}
       <div class="row">
         <div class="col-lg-12">
           <ul class="list-inline meta-info">
+            {{ range .Site.Params.hero.meta.list }}
             <li>
-              <a href="http://apinf.org/docs/">Documentation</a>
+              <a href="{{ .link }}">{{ .text }}</a>
             </li>
-            <li>
-              <a href="https://github.com/apinf/platform/releases">What's new</a>
-            </li>
+            {{ end }}
           </ul>
         </div>
       </div>
@@ -31,11 +32,15 @@
           <ul class="list-inline meta-links">
             <li>
               <i class="mdi mdi-github-circle"></i>
-              <a href="https://github.com/apinf/platform">Star on Github</a>
+              {{ with .Site.Params.hero.links.github }}
+              <a href="https://github.com/apinf/platform">{{ . }}</a>
+              {{ end }}
             </li>
             <li>
               <i class="mdi mdi-twitter-circle"></i>
-              <a href="https://twitter.com/@apinf_io">Follow @apinf_io on Twitter</a>
+              {{ with .Site.Params.hero.links.twitter }}
+              <a href="https://twitter.com/@apinf_io">{{ . }}</a>
+              {{ end }}
             </li>
           </ul>
         </div>

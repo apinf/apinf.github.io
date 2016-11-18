@@ -29,17 +29,30 @@ theme = "apinf-theme"
 
 	# Hero section
 	[params.hero]
-		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "API Management Platform"
 		subtitle   = "Develop. We do the rest."
-		buttonText = "Get started"
+		register = "Get started"
+		explore = "Explore APIs"
 
+
+	[[params.hero.meta.list]]
+		link = "http://apinf.org/docs/"
+		text = "Documentation"
+
+	[[params.hero.meta.list]]
+		link = "https://github.com/apinf/platform/releases"
+		text = "What's new"
+
+	[params.hero.links]
+		github = "Star on Github"
+		twitter = "Follow @apinf_io on Twitter"
 
 	# About section
 	[params.about]
 		headline    = "Simple API Management"
 		description = "APInf platform offers a comprehensive, yet easy to use API management tool. APInf provides simplified workflow for API owners for common API management tasks. At the same time, it serves as a self-service tool for API consumers for discovering APIs and taking them to use."
 		buttonText = "Discover more"
+		screenshot = "../img/dashboard.png"
 
 # Features
 [params.features]
@@ -48,7 +61,7 @@ theme = "apinf-theme"
 	user = "User"
 	# Users section
 	[params.features.users]
-		headline = "Some helpful text about time or something."
+		headline = "One stop shop to discover APIs and start using them!"
 
 		[[params.features.users.list]]
 	    image = "img/discover.jpg"
@@ -89,6 +102,8 @@ theme = "apinf-theme"
 			[params.services]
 				headline = "Services"
 				description = "From consultation to deployment, the APInf team is here to help you get the most out of APIs and APInf."
+				contactText = "If you have any questions about our services, get in touch. We would love to hear from you."
+				buttonText = "Contact us"
 
 				[[params.services.list]]
 			    title = "Self-hosted deployments"
@@ -120,16 +135,12 @@ theme = "apinf-theme"
 		description = "APinf is powered by API Umbrella and builds a dashboard on top of the API Umbrella features. The solution is fully open source licensed with MIT. It is written in Meteor.js and D3. We like to collaborate, to listen to our users and want to encourage people to become contributors."
 
 		[[params.opensource.list]]
-	    buttonText = "Text"
+	    buttonText = "Github"
+			link = "https://github.com/apinf"
 
 		[[params.opensource.list]]
-			buttonText = "Text"
-
-		[[params.opensource.list]]
-			buttonText = "Text"
-
-		[[params.opensource.list]]
-	    buttonText = "Text"
+			buttonText = "Community"
+			link = "https://community.apinf.io/"
 
 	  # Team section
 		[params.team]
@@ -217,7 +228,29 @@ theme = "apinf-theme"
 				github = "https://github.com/shaliko"
 
 	# Contact section
+	[params.contact.start]
+		headline = "Get started"
+		description = "Sounds like what you've been looking for? Sign in to apinf.io and get going!"
+
 	[params.contact]
-		headline = "How may we help you?"
-		description = "We want your input, questions, bug reports, complaints, praise, feature requests - every little bit helps."
-		email = "info@apinf.io"
+		headline = "Get in touch"
+		description = "If you are using APInf, interested in contributing, or looking for commercial support, we'd love to hear about it. Please contact us."
+
+[params.footer]
+	copyright = "2016 APInf - API Management Platform, a creation of Sampo Software Oy."
+
+[[params.footer.links.list]]
+	link = "https://twitter.com/apinf_io"
+	icon = "twitter"
+
+[[params.footer.links.list]]
+	link = "https://www.facebook.com/APInf.io"
+	icon = "facebook"
+
+[[params.footer.links.list]]
+	link = "https://github.com/apinf"
+	icon = "github-circle"
+
+[[params.footer.links.list]]
+	link = "https://medium.com/apinf"
+	icon = "medium"
