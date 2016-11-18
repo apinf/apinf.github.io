@@ -17,11 +17,7 @@
   {{ end }}
 
   {{ if .Site.Params.features.owners.list }}
-  {{ partial "ownerfeatures.html" . }}
-  {{ end }}
-
-  {{ if .Site.Params.features.users.list }}
-  {{ partial "userfeatures.html" . }}
+  {{ partial "features.html" . }}
   {{ end }}
 
   {{ if .Site.Params.services.list }}

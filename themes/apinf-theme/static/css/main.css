@@ -85,18 +85,6 @@ section h2 {
   font-size: 30px;
 }
 
-#user-features {
-  padding-top: 0;
-  padding-bottom: 100px;
-}
-
-#user-features h2, #owner-features h2 {
-  color: #333;
-  font-size: 36px;
-  margin-bottom: 0;
-}
-
-
 #contact {
   background-color: #2fa4e7;
   padding: 50px 0;
@@ -606,14 +594,14 @@ body {
   text-decoration: none;
 }
 
-#owner-features .nav-tabs > li, .nav-pills > li {
+#features .nav-tabs > li, .nav-pills > li {
   float:none;
   display:inline-block;
   *display:inline; /* ie7 fix */
   zoom:1; /* hasLayout ie7 trigger */
 }
 
-#owner-features  .nav-tabs, .nav-pills {
+#features  .nav-tabs, .nav-pills {
   text-align:center;
 }
 
@@ -655,4 +643,22 @@ body {
   border-top: 2px solid rgba(255,255,255,0.2);
   border-bottom: 2px solid rgba(255,255,255,0.2);
   margin-bottom: 20px;
+}
+
+#owner h3,
+#user h3 {
+  margin-bottom: 30px;
+}
+
+#owner img,
+#user img {
+  width: 200px;
+  border: 1px solid #a1a1a1;
+}
+
+#owner p,
+#user p {
+margin-top: 20px;
+padding-left: 50px;
+padding-right: 50px;
 }
