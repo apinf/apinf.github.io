@@ -38,7 +38,7 @@ theme = "apinf-theme"
 	# About section
 	[params.about]
 		headline    = "Simple API Management"
-		description = "APInf platform offers a comprehensive, yet easy to use API management tool. APInf provides simplified workflow for API owners for common Api management tasks. At the same time, it serves as a self-service tool for API consumers for discovering APIs and taking them to use."
+		description = "APInf platform offers a comprehensive, yet easy to use API management tool. APInf provides simplified workflow for API owners for common API management tasks. At the same time, it serves as a self-service tool for API consumers for discovering APIs and taking them to use."
 		buttonText = "Discover more"
 
 # Features
