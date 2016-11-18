@@ -98,27 +98,27 @@ theme = "apinf-theme"
 
 				[[params.services.list]]
 			    title = "Self-hosted deployments"
-			    description = "Find and bookmark useful APIs"
+			    description = "Do you want to run your own APInf instance? Save time by allowing our specialist to set up the deployment for you and manage it."
 
 				[[params.services.list]]
 					title = "Whitelabeling and customization"
-					description = "Sign up and get your API key"
+					description = "Get your own brand colors, logos, home page for your deployment."
 
 				[[params.services.list]]
 			    title = "Custom development"
-			    description = "Swagger viewer available"
+			    description = "Do you have any specific needs not covered in our current APInf version? Let us know about your custom needs."
 
 				[[params.services.list]]
 			    title = "Onboarding to apinf.io SaaS"
-			    description = "Mix APIs from several sources"
+			    description = "Our specialists can help you to add your APIs to our SaaS version and train you in common API management tasks."
 
 				[[params.services.list]]
 					title = "API consultancy and training"
-					description = "Mix APIs from several sources"
+					description = "Learn about common best practices for web APIs from our specialists."
 
 				[[params.services.list]]
 					title = "API design and Swagger"
-					description = "Mix APIs from several sources"
+					description = "If you are a newcomer to APIs, we can help you with API design and documentation."
 
     # Opensource section
 	[params.opensource]
