@@ -92,9 +92,8 @@ section h2 {
 
 #user-features h2, #owner-features h2 {
   color: #333;
-  font-weight: 300;
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 
@@ -608,3 +607,48 @@ body {
   border-bottom: 1px solid rgba(255,255,255,0.8);
   text-decoration: none;
 }
+
+#owner-features .nav-tabs > li, .nav-pills > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  zoom:1; /* hasLayout ie7 trigger */
+}
+
+#owner-features  .nav-tabs, .nav-pills {
+  text-align:center;
+}
+
+.nav-tabs {
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border-width: 0;
+}
+.nav-tabs > li > a {
+  border: none;
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li > a:hover {
+  border: none;
+  color: #333 !important;
+  background: transparent;
+}
+.nav-tabs > li > a::after {
+  content: "";
+  background: #f99d1e;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: -1px;
+  transition: all 250ms ease 0s;
+  transform: scale(0);
+}
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
