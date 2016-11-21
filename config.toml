@@ -9,7 +9,7 @@ theme = "apinf-theme"
 	description = "API Management Platform"
 
 	# The path must be relative to the static folder
-	favicon = "/favicon.ico"
+	favicon = "../img/favicon.ico"
 
 
 	# Navigation
