@@ -5,7 +5,7 @@ theme = "apinf-theme"
 
 [params]
 name = "APINF"
-description = "API Management Platform"
+description = "Discover and manage APIs"
 
 # The path must be relative to the static folder
 favicon = "../img/favicon.ico"
@@ -17,7 +17,7 @@ brand = "APINF"
 
 [params.navigation.links]
 about     = "About"
-opensource= "Opensource"
+opensource= "Open source"
 features  = "Features"
 services = "Services"
 documentation 	= "Documentation"
@@ -28,7 +28,7 @@ blog   		= "Blog"
 
 # Hero section
 [params.hero]
-slogan     = "API Management Platform"
+slogan     = "Discover and manage APIs"
 subtitle   = "Develop. We do the rest."
 register = "Get started"
 explore = "Explore APIs"
@@ -134,7 +134,7 @@ description = "If you are a newcomer to APIs, we can help you with API design an
 # Opensource section
 [params.opensource]
 headline = "We don’t just talk about Open Source, we live it too."
-description = "APinf is powered by API Umbrella and builds a dashboard on top of the API Umbrella features. The solution is fully open source licensed with MIT. It is written in Meteor.js and D3. We like to collaborate, to listen to our users and want to encourage people to become contributors."
+description = "APinf is powered by API Umbrella and builds a dashboard on top of the API Umbrella features. The solution is fully open source licensed with MIT. We have gone one step further with our open process. We like to collaborate, to listen to our users and want to encourage people to become contributors."
 
 [[params.opensource.list]]
 buttonText = "Github"
@@ -179,7 +179,7 @@ github = "https://github.com/brylie"
 
 [[params.team.list]]
 name = "Laura Ekman"
-title = "Marketing Coordinator"
+title = "Marketing Manager"
 photo = "/img/team/laura.jpg"
 linkedin = "https://linkedin.com/in/laura-ekman"
 medium = "https://medium.com/@lauraekman"
