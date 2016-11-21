@@ -1,0 +1,21 @@
+{{ "<!-- FOOTER -->" | safeHTML }}
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        {{ with .Site.Params.footer.copyright }}
+          <p>
+            {{ . }}
+          </p>
+          {{ end }}
+        <ul class="list-inline social-buttons">
+          {{ range .Site.Params.footer.links.list }}
+            <li>
+              <a href="{{ .link }}"><i class="mdi mdi-36px mdi-{{ .icon }}"></i></a>
+            </li>
+            {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

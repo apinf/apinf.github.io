@@ -1,0 +1,26 @@
+{{ "<!-- OPENSOURCE -->" | safeHTML }}
+<section id="opensource">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        {{ with .Site.Params.opensource.headline }}
+        <h2 class="section-heading">{{ . }}</h2>
+        {{ end }}
+        {{ if and .Site.Params.opensource.headline .Site.Params.opensource.description }}
+        {{ end }}
+        {{ with .Site.Params.opensource.description }}
+        <p class="description-padding">{{ . | markdownify }}</p>
+        {{ end }}
+        <ul class="list-inline">
+          {{ range .Site.Params.opensource.list }}
+          <li>
+            <a class="btn btn-primary outline" href="{{ .link }}">
+              {{ .buttonText }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
