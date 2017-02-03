@@ -195,12 +195,12 @@ photo = "/img/team/vesa.jpg"
 linkedin = "https://www.linkedin.com/in/vesa-h%C3%A4rk%C3%B6nen-1514891"
 
 [[params.team.list]]
-name = "Ville Jyrkkä"
-title = "SW Developer"
-photo = "/img/team/ville.jpg"
-twitter = "https://twitter.com/jykae"
-github = "https://github.com/jykae"
-linkedin = "https://fi.linkedin.com/in/vjyrkka"
+name = "Jarkko Moilanen"
+title = "Business and Community Developer"
+photo = "/img/team/jarkko.jpg"
+twitter = "https://twitter.com/kyyberi"
+github = "https://github.com/kyyberi"
+linkedin = "https://fi.linkedin.com/in/jarkkomoilanen"
 
 [[params.team.list]]
 name = "Nazia Hasan"
@@ -247,7 +247,7 @@ description = "If you are using APInf, interested in contributing, or looking fo
 
 # Footer section
 [params.footer]
-copyright = "2016 APInf - API Management Platform, a creation of Sampo Software Oy."
+copyright = "2017 APInf - API Management Platform"
 
 [[params.footer.links.list]]
 link = "https://twitter.com/apinf_io"
