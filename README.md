@@ -4,7 +4,7 @@ apinf.github.io
 Website is powered by [Hugo](https://gohugo.io/).
 At the moment we store Hugo related code in develop and generated site in master branch.
 
-This is a temporary solution (see this [issue] (https://github.com/apinf/apinf.github.io/issues/8)), these steps you need to take in order update the website.
+This is a temporary solution (see this [issue](https://github.com/apinf/apinf.github.io/issues/8)), these steps you need to take in order update the website.
 
 1. Install [Hugo](https://gohugo.io/overview/quickstart/)
 2. Clone this repo
