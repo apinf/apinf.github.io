@@ -138,7 +138,7 @@ description = "If you are a newcomer to APIs, we can help you with API design an
 # Opensource section
 [params.opensource]
 headline = "We don’t just talk about Open Source, we live it too."
-description = "APinf is powered by API Umbrella and builds a dashboard on top of the API Umbrella features. The solution is fully open source licensed with MIT. We have gone one step further with our open process. We like to collaborate, to listen to our users and want to encourage people to become contributors."
+description = "APinf is powered by API Umbrella and builds a dashboard on top of the API Umbrella features. The solution is fully open source licensed with EUPL. We have gone one step further with our open process. We like to collaborate, to listen to our users and want to encourage people to become contributors."
 
 [[params.opensource.list]]
 buttonText = "Github"
@@ -170,7 +170,7 @@ medium = "https://medium.com/@TaijaBjorklund"
 [[params.team.list]]
 name = "Philippe Luickx"
 title = "Business Developer"
-photo = "/img/team/phillipe.jpg"
+photo = "/img/team/philippe.jpg"
 twitter = "https://twitter.com/PhilippeLuickx"
 linkedin = "https://www.linkedin.com/in/philippeluickx"
 medium = "https://medium.com/@PhilippeLuickx"
@@ -210,16 +210,16 @@ twitter = "https://twitter.com/NazarahTheCat"
 linkedin = "https://linkedin.com/in/naziahasan"
 
 [[params.team.list]]
-name = "Illya Nizyev"
-title = "SW Developer"
-photo = "/img/team/illya.jpg"
-github = "https://github.com/nnn"
+name = "Mauricio Vieira"
+title = "Senior SW Developer"
+photo = "/img/team/mauricio.jpg"
+github = "https://github.com/mauriciovieira"
 
 [[params.team.list]]
-name = "Damir Mustafin"
+name = "Matti Leppänen"
 title = "SW Developer"
-photo = "/img/team/damir.jpg"
-github = "https://github.com/frenchbread"
+photo = "/img/team/matti.jpg"
+github = "https://github.com/matleppa"
 
 [[params.team.list]]
 name = "Daria Voytova"
