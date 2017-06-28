@@ -234,6 +234,18 @@ photo = "/img/team/shaliko.jpg"
 twitter = "https://twitter.com/usubov"
 github = "https://github.com/shaliko"
 
+[[params.team.list]]
+name = "J Phani Mahesh"
+title = "Scalability Engineer"
+photo = "/img/team/mahesh.jpg"
+github = "https://github.com/phanimahesh"
+
+[[params.team.list]]
+name = "Saurabh Kumar"
+title = "SW Developer"
+photo = "/img/team/saurabh.jpeg"
+github = "https://github.com/sa1"
+
 
 # Contact section
 [params.contact.start]
