@@ -541,7 +541,8 @@ body {
 
 .team-member {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  height: 250px;
 }
 .team-member img {
   margin: 0 auto;
