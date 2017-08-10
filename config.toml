@@ -1,4 +1,4 @@
-baseurl = "http://apinf.org/"
+baseurl = "http://apinf.com/"
 languageCode = "en-us"
 title = "APInf - Discover and manage APIs"
 theme = "apinf-theme"
